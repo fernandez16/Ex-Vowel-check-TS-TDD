@@ -6,49 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vowel Check</title>
+    <link rel="stylesheet" href="style.scss">
 </head>
 
 <body>
 
-    <section>
+    <main>
 
-        <div>
-            <h2>Vowel Check</h2>
-            <form action="">
-                <label for="vowel-check-input">Input your phrase here:</label>
-                <input type="text" id="vowel-check-input">
-                <input type="submit" value="Submit" id="vowel-check-submit">
-            </form>
-            <div id="vowel-check-outpupt"></div>
-        </div>
+        <section>
 
-        <div>
-            <h2>Vowel Count</h2>
-            <form action="">
-                <label for="vowel-count-input">Input your phrase here:</label>
-                <input type="text" id="vowel-count-input">
-                <input type="submit" value="Submit" id="vowel-count-submit">
-            </form>
-            <div id="vowel-count-outpupt"></div>
-        </div>
+            <div>
+                <h2>Vowel Check</h2>
+                <form action="">
+                    <label for="vowel-check-input">Input your phrase here:</label>
+                    <input type="text" id="vowel-check-input">
+                    <input type="button" value="Submit" id="vowel-check-button">
+                </form>
+                <p id="vowel-check-output"></p>
+            </div>
 
-    </section>
+            <div>
+                <h2>Vowel Count</h2>
+                <form action="">
+                    <label for="vowel-count-input">Input your phrase here:</label>
+                    <input type="text" id="vowel-count-input">
+                    <input type="button" value="Submit" id="vowel-count-button">
+                </form>
+                <p id="vowel-count-output"></p>
+            </div>
 
-    <section>
+        </section>
 
-        <div>
-            <h2>Vowel Check Count</h2>
-            <form action="">
-                <label for="vowel-check-count-input">Input your phrase here:</label>
-                <input type="text" id="vowel-check-count-input">
-                <input type="submit" value="Submit" id="vowel-check-count-submit">
-            </form>
-            <div id="vowel-check-count-outpupt"></div>
-        </div>
+        <section>
 
-    </section>
+            <div>
+                <h2>Vowel Check Count</h2>
+                <form action="">
+                    <label for="vowel-check-count-input">Input your phrase here:</label>
+                    <input type="text" id="vowel-check-count-input">
+                    <input type="button" value="Submit" id="vowel-check-count-button">
+                </form>
+                <p id="vowel-check-count-output"></p>
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
-<script src="scripts/index.ts" type="module"></script>
+<script src="./scripts/index.ts" type="module"></script>
 
 </html>

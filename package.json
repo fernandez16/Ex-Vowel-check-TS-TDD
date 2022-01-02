@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/babel-preset-env": "^2.0.1",
+    "@parcel/transformer-sass": "^2.0.1",
     "@types/jest": "^27.4.0",
     "jest": "^27.4.5",
     "parcel": "^2.0.1",

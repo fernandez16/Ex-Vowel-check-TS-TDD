@@ -1,12 +1,13 @@
-import { vowelCheck } from "../scripts/modules/vowelCheck";
+import { vowelCheckCount } from "../../scripts/modules/vowelCheckCount";
+
 
 describe("tests the functionality of the vowelCheck function", () => {
   test("checks wether vowels are correctly grabbed", () => {
     // Given
     let phrase = "This is a phrase";
     // When
-    let result = vowelCheck(phrase);
+    let result = vowelCheckCount(phrase);
     // Then
-    expect(result).toBe("a, e, i");
+    expect(result).toBe("a2, e1, i2");
   });
 });
